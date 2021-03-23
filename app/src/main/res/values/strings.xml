@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">CineProMx</string>
+    <string name="APP">App</string>
+    <string name="et1">Ingresar usuario</string>
+    <string name="et2">Ingresar contraseña</string>
+    <string name="boton1">Ingresar</string>
+    <string name="peli1">Rapidos y Furiosos</string>
+    <string name="peli2">Transformers</string>
+    <string name="peli3">RascaCielos</string>
+    <string name="peli4">El Joker</string>
+    <string name="usuario">Datos del usuario</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
