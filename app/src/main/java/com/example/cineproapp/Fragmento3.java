@@ -42,6 +42,7 @@ public class Fragmento3 extends Fragment {
     @Override
     public void onActivityCreated(Bundle state){
         super.onActivityCreated(state);
+
         LV1 = (ListView)getView().findViewById(R.id.LV1);
         for (int i = 0; i < 4; i++){
             Array.add(Arreglo[i]);
