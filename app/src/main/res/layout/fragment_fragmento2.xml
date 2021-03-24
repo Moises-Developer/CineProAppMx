@@ -59,7 +59,6 @@
             android:layout_marginStart="236dp"
             android:layout_marginLeft="236dp"
             android:layout_marginTop="93dp"
-            android:text="TextView"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/button" />
     </androidx.constraintlayout.widget.ConstraintLayout>
