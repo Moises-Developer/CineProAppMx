@@ -12,16 +12,20 @@
         android:layout_height="42dp"
         android:layout_gravity="center_vertical"
         android:layout_margin="25dp"
+        android:background="@android:color/background_light"
+        android:scaleType="centerInside"
         app:srcCompat="@drawable/iconoxd"
         tools:srcCompat="@drawable/iconoxd" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
-        android:layout_height="22dp"
+        android:layout_height="30dp"
         android:layout_gravity="center_vertical"
         android:layout_weight="1"
         android:text="TextView"
-        android:textColor="#333" />
+        android:textColor="#FFFFFF"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
 
 </LinearLayout>

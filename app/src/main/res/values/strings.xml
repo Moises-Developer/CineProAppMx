@@ -10,6 +10,7 @@
     <string name="peli4">El Joker</string>
     <string name="usuario">Datos del usuario</string>
     <string name="dinero">Dinero del usuario</string>
+    <string name="Actualizar">Actualizar</string>
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
