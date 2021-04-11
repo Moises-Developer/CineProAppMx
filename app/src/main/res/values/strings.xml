@@ -11,6 +11,27 @@
     <string name="usuario">Datos del usuario</string>
     <string name="dinero">Dinero del usuario</string>
     <string name="Actualizar">Actualizar</string>
+    <string name="DescripcionFastF">Es una pelicula de accion en la cual 2 miembros se enfrentan contra policia extranjera
+    despues de un combate en mexico en el cual ellos 2 salieron huyendo de las autoridades...</string>
+    <string name="DescripcionTransformers">En esta pelicula vemos como el protagonista de la pelicula Sam se encuentra
+    con robots ultra avanzados, por lo que forman una alianza contra los desepticons...</string>
+    <string name="DescripcionRascaCielos">Durante un viaje de trabajo en China, se ve incriminado en el incendio del edificio
+        más alto y seguro del mundo. Perseguido y a la fuga, Will deberá encontrar a los que le han tendido la trampa, limpiar su nombre y rescatar a su familia,
+        atrapada en el interior del rascacielos… sin sucumbir a las llamas​.</string>
+    <string name="DescripcionJoker">La pasión de Arthur Fleck, un hombre ignorado por la sociedad, es hacer reír a la gente. Sin embargo, una serie de trágicos
+        sucesos harán que su visión del mundo se distorsione considerablemente convirtiéndolo en un brillante criminal.</string>
+    <string name="Precio1">$1200.00</string>
+    <string name="Precio2">$800.00</string>
+    <string name="comandas">Alimentos y Bebidas</string>
+    <string name="ActualizacionTar">Actualizar Tarjeta</string>
+    <string name="ActualizacionUsu">Actualizar Usuario</string>
+    <string name="salir">Salir</string>
+    <string name="TarjetaID">Identificador De Tarjeta</string>
+    <string name="Banca">Nombre de banco</string>
+    <string name="NombreUsuario">Nombre</string>
+    <string name="Telefono">Telefono</string>
+    <string name="Contrasena">Contraseña</string>
+
 
     <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
