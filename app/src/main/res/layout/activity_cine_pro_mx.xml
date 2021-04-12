@@ -19,7 +19,7 @@
         app:srcCompat="@drawable/descarga" />
 
     <EditText
-        android:id="@+id/editText"
+        android:id="@+id/etUsuario"
         android:layout_width="269dp"
         android:layout_height="49dp"
         android:layout_marginTop="52dp"
@@ -38,7 +38,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageButton" />
 
     <EditText
-        android:id="@+id/editText2"
+        android:id="@+id/etContrasena"
         android:layout_width="269dp"
         android:layout_height="53dp"
         android:layout_marginStart="68dp"
@@ -55,7 +55,7 @@
         android:paddingEnd="12dp"
         android:textSize="18sp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText" />
+        app:layout_constraintTop_toBottomOf="@+id/etUsuario" />
 
     <Button
         android:id="@+id/BotonLogIn"
@@ -68,5 +68,5 @@
         android:textSize="18dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText2" />
+        app:layout_constraintTop_toBottomOf="@+id/etContrasena" />
 </androidx.constraintlayout.widget.ConstraintLayout>

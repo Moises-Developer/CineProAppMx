@@ -1,6 +1,7 @@
 package com.example.cineproapp;
 
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
@@ -9,6 +10,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
+import android.widget.Button;
 import android.widget.ListView;
 
 import java.lang.reflect.Array;
@@ -22,7 +24,7 @@ public class Fragmento3 extends Fragment {
 
 
     private ListView LV1;
-
+    private Button btnActualizarUsu;
     private String[] Arreglo = {"ID usuario: ", "Nombre: ", "Numero de tarjeta", "Contraseña: "};
     private ArrayList<String> Array =new ArrayList<String>();
 
@@ -35,8 +37,19 @@ public class Fragmento3 extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_fragmento3, container, false);
+        //return inflater.inflate(R.layout.fragment_fragmento3, container, false);
+        View view = inflater.inflate(R.layout.fragment_fragmento3, container, false);
 
+        btnActualizarUsu = view.findViewById(R.id.btnActualizarUsu);
+        btnActualizarUsu.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent i = new Intent(getActivity(), ActualizarUsuario.class);
+                startActivity(i);
+            }
+        });
+
+        return view;
     }
 
     @Override

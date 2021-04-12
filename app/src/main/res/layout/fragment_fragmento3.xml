@@ -41,7 +41,7 @@
             app:layout_constraintTop_toBottomOf="@+id/textView12" />
 
         <Button
-            android:id="@+id/button5"
+            android:id="@+id/btnActualizarUsu"
             android:layout_width="115dp"
             android:layout_height="51dp"
             android:layout_marginTop="32dp"
@@ -62,7 +62,7 @@
             android:layout_marginRight="167dp"
             android:text="TextView"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/button5" />
+            app:layout_constraintTop_toBottomOf="@+id/btnActualizarUsu" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
